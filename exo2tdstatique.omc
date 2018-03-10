@@ -1,0 +1,32 @@
+22 serialization::archive 9 0 2 0 0 6  2.1.5 2 1 5 0 0 22 3 20 OpenMeca::Item::Body 1 3
+0 0 0 0 0 0 0 4 Body 6 Body_1 0 0 255 32 20 255 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 1 0 1 0 1 0 0 0 3 0 0 0 1 0 0 3 1 0 0 3 0 1 0 3 0 0 1 0 0 3 0 0 0 0.59999999999999998 0.59999999999999998 0 3
+1 4 Body 6 Body_2 33 37 255 255 1 3 0 0 0 1 0 1 0 1 0 3 0 0 0 1 3 1 0 0 3 0 1 0 3 0 0 1 1 0 3 0 0 0 0.59999999999999998 0.59999999999999998 0 15 29 OpenMeca::Item::PartUserPoint 1 1
+2 3 0 1 0
+3 0 0 0 0 0 0 5 Point 7 Point_1 0 0 0 3 0 15 2 3 0 7 0 3 0 0 0 1 0 0 0 3 0 0 0 3 0 7 0 1 0 1 7 1 0 15
+4 3 0
+5 5 Point 7 Point_2 0 3 0 15 4 3 4 7 0 3 0 0 0 1 0 3 0 0 0 3 4 7 0 1 4 1 7 1 0 22 28 OpenMeca::Item::PartUserPipe 1 0
+6 15 2 4 Pipe 6 Pipe_1 0 15 2 22 6 3 0 7 0 3 -0 0 0 1 3 1 0 0 4 16
+7 22 6 14 AutomaticPoint 16 AutomaticPoint_1 0 22 6 16 7 3 4 0 0 3 0 0 0 1 0 3 0 0 0 16 7 22
+8 15 2 4 Pipe 6 Pipe_2 0 15 2 22 8 3 0 7 0 3 0 0 -0.70710678118654746 0.70710678118654757 3 0 -0.5 0 5.5 16
+9 22 8 14 AutomaticPoint 16 AutomaticPoint_2 0 22 8 16 9 3 5.5 0 0 3 0 0 0 1 0 3 0 0 0 16 9 23 37 OpenMeca::Item::How::SetForce::MyLoad 1 0
+10 15 4 0 0 0 0 10 Load@Force 12 Poids Bateau 0 1 0
+11 0 0 0 0 0 0 10 Load@Force 12 Poids Bateau 0 255 0 0 255 1 0
+12 0 0 0 0 3 0 -4000 0 3 0 -4000 0 1 23
+13 15 4 10 Load@Force 13 Force du vent 0
+14 10 Load@Force 13 Force du vent 0 255 0 0 255
+15 3 0 0 -500 3 0 0 -500 0 33 47 OpenMeca::Item::LinkT<OpenMeca::Item::Revolute> 1 0
+16 0 2 8 Revolute 10 Revolute_1 0 0 3 0 33 16 3 1 33 16 3 0 0 0 1 0 1 0 1 0 0 0 3 0.70710678118654746 0 0 0.70710678118654757 0 0 3 1 0 0 1 1 1 0 1 0 0 0 1.5707963267948966 2 90 39 1 0
+17 33 16 15 Part_Revolute_1 15 Part_Revolute_1 0 0 0 3 16
+18 39 17 14 AutomaticPoint 4 left 0 39 17 16 18 3 0 0 -1.6875 3 0 0 0 1 1 3 0 0 -0.5 16
+19 39 17 14 AutomaticPoint 6 middle 0 39 17 16 19 3 0 0 0 3 0 0 0 1 1 3 0 0 0 16
+20 39 17 14 AutomaticPoint 5 right 0 39 17 16 20 3 0 0 1.6875 3 0 0 0 1 1 3 0 0 0.5 41 1 0
+21 33 16 15 Part_Revolute_2 15 Part_Revolute_1 0 1 16
+22 41 21 14 AutomaticPoint 6 middle 0 41 21 16 22 3 0 0 0 3 0 0 0 1 1 3 0 0 0 0 0 0 0 39 17 16 18 16 19 16 20 41 21 16 22 44 38 OpenMeca::Item::How::SetTorque::MyLoad 1 0
+23 16 19 11 Load@Torque 14 MotoRéducteur 0 1 0
+24 11 Load@Torque 14 MotoRéducteur 0 255 0 0 255
+25 3 0 -2000 0 3 0 -2000 0 1 46 58 OpenMeca::Item::PartUserShapeT<OpenMeca::Item::Shape::Box> 1 0
+26 15
+27 3 0
+28 5 Point 7 Point_3 0 3 0 15 27 3 4 4 0 3 0 0 0 1 0 3 0 0 0 3 4 4 0 1 4 1 4 1 0 0 0 3 Box 5 Box_1 0 15 27 46 26 3 4 4 0 3 0 0 0 1 0 0 1 1 2.5 3 0 0 0 1 0 15 27 22
+29 15 27 4 Pipe 6 Pipe_3 0 15 27 22 29 3 4 4 0 3 0 0 0.70710678118654746 0.70710678118654757 3 0 1 0 3 16
+30 22 29 14 AutomaticPoint 16 AutomaticPoint_3 0 22 29 16 30 3 3 0 0 3 0 0 0 1 0 3 0 0 0 16 30 4 7 Gravity 3 0 -9.8100000000000005 0 6 Scales 8 19 AngularAcceleration 1 15 AngularVelocity 1 5 Force 1 5 Frame 0.5 18 LinearAcceleration 1 14 LinearVelocity 1 4 Part 3.375 6 Torque 1 5 Scene 1 128 128 128 255 3 0 0 0 1 0 10 Simulation 1.0000000000000001e-05 2 0.10000000000000001
